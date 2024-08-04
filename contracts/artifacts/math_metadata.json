@@ -9,6 +9,74 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "k",
+						"type": "uint256"
+					}
+				],
+				"name": "_addmod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "k",
+						"type": "uint256"
+					}
+				],
+				"name": "_mulmod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "a",
 						"type": "uint256"
 					},
@@ -82,11 +150,11 @@
 	},
 	"sources": {
 		"contracts/11_maths.sol": {
-			"keccak256": "0x7dddc342868a5a93df3bf5e9a76587d7bfec6cdfdad315bbf554a0da96b6a055",
+			"keccak256": "0xfa858737c687b53a64ba307febff6e3b0a6a6c57a61b77336cb284e37ae4c54b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f95496d28146da54b6c5d0d62369ba0daea318845ad5b66a970f6baeb55bbc33",
-				"dweb:/ipfs/QmNQiaMNf8sHMtFXeVScUDs4srJasGd9GcYCEUJVcv7tDt"
+				"bzz-raw://672c5f4774a33b05d3e723d3c940b6a86739edadd091ac85ae45a180ac43cfc0",
+				"dweb:/ipfs/QmTZ7hSbFfmgELWwcHHU1JVriFxFSF28GMcrSjM2hhHEwP"
 			]
 		}
 	},
