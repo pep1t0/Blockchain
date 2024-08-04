@@ -21,8 +21,7 @@ msg.data -> El calldata completo, que es un area no modificable y no persistente
 */
 
 contract Fallback_Receive {
-
-    event log(string _name, address _sender, uint _amount, bytes _data);
+    event log(string _name, address _sender, uint256 _amount, bytes _data);
 
     fallback() external payable {
         emit log("fallback", msg.sender, msg.value, msg.data);
