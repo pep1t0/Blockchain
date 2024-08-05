@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/13_funciones_avanzadas.sol": "Hamburguer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/13_funciones_avanzadas.sol": {
+			"keccak256": "0xffa4a4112998f4717b715b275011e6dafba0fb91fa986703ecfad7bf8eef7162",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4848644932feaa2d9fdaedefad31e4bd12b1fd6e46ca36a820757028d4fb5c16",
+				"dweb:/ipfs/QmYzRmjjKv9VyeC6Jpg7fxHYdNbUMtooz3Wvh7nEppGBUr"
+			]
+		}
+	},
+	"version": 1
+}
